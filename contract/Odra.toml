@@ -1,0 +1,2 @@
+[[contracts]]
+fqn = "treasury_guardian::treasury_guardian::TreasuryGuardian"

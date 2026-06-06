@@ -1,0 +1,23 @@
+# Rust / Odra
+/contract/target
+/contract/wasm/*.wasm
+**/*.rs.bk
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Secrets & keys — never commit
+.env
+.env.local
+keys/
+*.pem
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# TS build info
+*.tsbuildinfo
