@@ -1,0 +1,21 @@
+{
+  "name": "treasury-guardian-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Autonomous treasury agent: proposes actions through the on-chain Policy Vault and pays for premium data via x402.",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "once": "tsx src/index.ts --once",
+    "dry-run": "tsx src/index.ts --once --dry-run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
